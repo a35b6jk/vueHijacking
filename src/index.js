@@ -20,13 +20,20 @@ const vm = new Vue({
                     use: 'cc'
                 },
                 'cc': {
-                    name: 'kk',
-                    use: 'll'
+                    name1s: 'kk',
+                    use1: 'll'
                 }
             },
             school: ['pp', 'uu']
         }
     }
 }) 
-
-console.log(vm.title)
+vm.students.push({
+    name: 'aa',
+    class: 'cc'
+})
+// vm.teacher = {
+//     'aa': 111
+// }
+console.log(vm.students)
+// console.log(vm.students)
